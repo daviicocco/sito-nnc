@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-[rgb(208,0,0)] text-white py-10 px-4 text-center space-y-4">
+    <footer className="bg-[rgb(22,26,29)] text-white py-10 px-4 text-center space-y-4">
       {/* Logo */}
       <div>
         <h1 className="text-3xl font-bold">NNC</h1>
@@ -16,17 +16,16 @@ export default function Footer() {
 
       {/* Email e PEC */}
       <div className="text-sm space-y-1">
-        <p>info@nnc.it</p>
-        <p>pec@nncpec.it</p>
+        <p>newnuraminiscompany@gmail.com</p>
+        <p>newnuraminiscompany@pec.it</p>
       </div>
-
       {/* Sede */}
       <div className="text-xs">
         SEDE: Nuraminis (SU) - Sardegna
       </div>
 
       {/* Linea separatrice */}
-      <hr className="border-t border-white w-2/3 mx-auto" />
+      <hr className="border-t border-white w-2 mx-auto" />
 
       {/* Privacy e policy */}
       <div className="text-xs mt-2">
