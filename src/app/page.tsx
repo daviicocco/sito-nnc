@@ -1,11 +1,15 @@
-import { Button } from '@/components/ui/button'
+import HomeHero from "@/components/ui/HomeHero"
+import AboutSection from "@/components/ui/AboutSection";
+import EventsSection from "@/components/ui/EventsSection";
+import Footer from "@/components/ui/Footer";
 
 export default function Home() {
   return (
-    <main className="p-8">
-      <title>Ciao</title>
-      <h1 className="text-3xl font-bold mb-4">Benvenuto nella Carrozzeria Davide</h1>
-      <Button>Contattaci</Button>
-    </main>
-  )
+    <>
+      <HomeHero />
+      <AboutSection />
+      <EventsSection />
+      <Footer />
+    </>
+  );
 }
