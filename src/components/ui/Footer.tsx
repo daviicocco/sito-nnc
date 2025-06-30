@@ -1,17 +1,29 @@
 "use client"
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-[rgb(22,26,29)] text-white py-10 px-4 text-center space-y-4">
       {/* Logo */}
       <div>
-        <h1 className="text-3xl font-bold">NNC</h1>
+        <h1 className="text-3xl font-tanker font-bold">NNC</h1>
       </div>
 
       {/* Social */}
       <div className="flex justify-center space-x-6 text-xl">
-        <span>Instagram</span>
-        <span>Facebook</span>
+        <Link
+          href="https://www.instagram.com/newnuraminiscompany/"
+          className="hover:no-underline"
+        >
+          Instagram
+        </Link>
+        <Link
+          href="https://www.facebook.com/share/1CcCFsNiSh/?mibextid=wwXIfr"
+          className="hover:no-underline"
+        >
+          Facebook
+        </Link>
+        
       </div>
 
       {/* Email e PEC */}

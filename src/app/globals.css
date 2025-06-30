@@ -123,8 +123,12 @@
     @apply bg-background text-foreground;
   }
 }
-@import "./tanker.css";
-
+@import "./style/tanker.css";
+@import "./style/satoshi.css";
 body {
-  font-family: 'Tanker', sans-serif;
+  font-family: 'Satoshi';
+}
+
+.font-tanker {
+  font-family: 'Tanker';
 }
