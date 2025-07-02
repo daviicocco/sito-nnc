@@ -1,3 +1,4 @@
+// components/ui/NavBar.tsx
 "use client";
 
 import { useState } from "react";
@@ -10,11 +11,11 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full h-20 bg-[rgb(208,0,0)] text-white z-50 shadow-md">
-      <div className="max-w-6xl mx-auto h-full px-4 flex items-center justify-between relative">
+      <div className="h-full px-6 flex items-center justify-between relative w-full">
         {/* Logo */}
         <img src="/images/LogoWhite.svg" alt="Logo NNC" className="h-12" />
 
-        {/* Titolo centrato con link alla home */}
+        {/* Titolo centrato */}
         <Link
           href="/"
           className="absolute left-1/2 transform -translate-x-1/2 text-2xl font-tanker font-bold hover:no-underline"
@@ -22,7 +23,7 @@ export default function Navbar() {
           NNC
         </Link>
 
-        {/* Menu toggle */}
+        {/* Hamburger */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-white z-50"
@@ -32,7 +33,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Fullscreen overlay menu */}
+      {/* Menu mobile */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -48,7 +49,6 @@ export default function Navbar() {
             <Link href="/Eventi" onClick={() => setMenuOpen(false)} className="hover:underline">
               Eventi
             </Link>
-            {/* Aggiungi altre voci se vuoi */}
           </motion.div>
         )}
       </AnimatePresence>
