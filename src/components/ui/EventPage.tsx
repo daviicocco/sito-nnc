@@ -20,7 +20,7 @@ export default function EventPage({ event }: { event: EventInfo }) {
       <div className="fixed top-0 left-0 w-full h-20 flex items-center justify-center bg-[rgb(208,0,0)] text-white z-50 px-4">
         <div className="flex items-center w-full max-w-6xl">
           <img src="/images/LogoWhite.svg" alt="Logo NNC" className="h-12" />
-          <h1 className="text-2xl font-tanker font-bold flex-1 text-center">NNC</h1>
+          <h1 className="text-2xl font-tanker flex-1 text-center">NNC</h1>
           <div style={{ width: "48px" }} />
         </div>
       </div>

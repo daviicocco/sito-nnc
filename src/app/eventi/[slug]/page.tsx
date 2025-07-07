@@ -25,7 +25,7 @@ export default function EventoPage() {
           <p className="text-gray-600 mb-8">
             L'evento che stai cercando non esiste o è stato rimosso.
           </p>
-          <Link href="/Eventi">
+          <Link href="/eventi">
             <Button>
               <ArrowLeft className="w-4 h-4 mr-2" />
               Torna agli eventi
@@ -57,7 +57,7 @@ export default function EventoPage() {
       {/* Breadcrumb */}
       <div className="mb-6 sm:mb-8">
         <Link 
-          href="/Eventi" 
+          href="/eventi" 
           className="inline-flex items-center text-sm sm:text-base text-gray-600 hover:text-gray-900 transition-colors"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -75,7 +75,7 @@ export default function EventoPage() {
             </Badge>
             <div className="flex items-start gap-4">
               <div className="flex-1">
-                <h1 className="text-3xl sm:text-3xl lg:text-4xl xl:text-5xl font-tanker font-bold text-black leading-tight">
+                <h1 className="text-3xl sm:text-3xl lg:text-4xl xl:text-5xl font-tanker text-black leading-tight">
                   {evento.titolo}
                 </h1>
               </div>

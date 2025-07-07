@@ -46,7 +46,7 @@ export default function EventiPage() {
     <main className="flex-grow max-w-7xl mx-auto px-4 py-8 pt-20 sm:px-6 sm:py-16 sm:pt-24">
       {/* Header */}
       <div className="text-center mb-8 sm:mb-12">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-tanker font-bold mb-2 sm:mb-4 text-black">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2 sm:mb-4 text-black">
           I NOSTRI EVENTI
         </h1>
         <p className="text-gray-600 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto px-4">
@@ -136,13 +136,13 @@ export default function EventiPage() {
                 </div>
 
                 <Link
-                  href={`/Eventi/${evento.slug}`}
+                  href={`/eventi/${evento.slug}`}
                   className="block p-4 sm:p-6 aspect-[4/3] flex flex-col justify-between"
                   aria-label={`Vai ai dettagli di ${evento.titolo}`}
                 >
                   <div className="flex justify-between items-start mt-6 sm:mt-8">
                     <div className="flex-1 pr-3 sm:pr-4">
-                      <h3 className="text-lg sm:text-xl font-tanker font-bold text-black leading-tight mb-2 sm:mb-3">
+                      <h3 className="text-lg sm:text-xl font-tanker text-black leading-tight mb-2 sm:mb-3">
                         {evento.titolo}
                       </h3>
                       

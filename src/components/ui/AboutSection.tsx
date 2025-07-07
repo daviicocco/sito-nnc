@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10 px-6 py-8">
       <div className="flex-1 space-y-4">
-        <h2 className="text-3xl font-tanker font-bold text-black mt-0 mb-2">CHI SIAMO</h2>
+        <h2 className="text-3xl font-bold text-black mt-0 mb-2">CHI SIAMO</h2>
         <p className="text-lg">
           Siamo un gruppo di ragazzi giovanissimi con una grande voglia di creare qualcosa di unico.
           Tutto è iniziato nel 2022, quando un gruppo di amici ha deciso di organizzare un torneo di calcetto per divertirsi e coinvolgere più persone possibili.
